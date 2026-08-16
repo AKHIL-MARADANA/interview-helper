@@ -5,17 +5,18 @@ env/
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-.Python
 *.so
+.Python
 
 # Django
 db.sqlite3
 *.log
 local_settings.py
 media/
+staticfiles/
 
 # Environment variables
 .env

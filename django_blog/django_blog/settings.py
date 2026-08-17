@@ -33,7 +33,7 @@ DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = os.getenv(
     'ALLOWED_HOSTS',
-    'localhost,127.0.0.1,interview-helper-3rhy.onrender.com'
+    'localhost,127.0.0.1'
 ).split(',')
 # Application definition
 
